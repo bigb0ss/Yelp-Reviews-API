@@ -71,7 +71,7 @@ def yelpReviewsJob():
 	print("Completed Job")
 
 
-schedule.every().thursday.at("10:25").do(yelpReviewsJob)
+schedule.every().thursday.at("10:28").do(yelpReviewsJob)
 
 while True:
 	schedule.run_pending()
