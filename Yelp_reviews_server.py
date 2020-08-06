@@ -12,7 +12,7 @@ import time
 def yelpReviewsJob():
 
 	prepare()
-	
+
 	usa_cities = open('USA_cities.txt','r').read().split('\n')
 	canada_cities = open('Canada_cities.txt','r').read().split('\n')
 	print("Started Job")
@@ -25,11 +25,15 @@ def yelpReviewsJob():
 		flag=True
 		if flag:
 			try:
+				file = open('status.txt','a')
+				print("<BR> Start "+datetime.now().strftime("%d-%B-%Y  %I:%M %p  %Z")+"<br><br>",file=file)
+				file.close()
 				x=time.time()
-				getYelpData(usa_cities[index],'us',True)
+				getYelpData(usa_cities[index],'us')
 				y=time.time()
 				file = open('status.txt','a')
 				print("<br> "+str(index+1)+". Completed request for  : "+usa_cities[index]+"   Time taken : "+str((y-x)/60)+" minutes",file=file)
+				print("<BR> Stop "+datetime.now().strftime("%d-%B-%Y  %I:%M %p  %Z")+"<br><br>",file=file)
 				file.close()
 				
 				flag=False
@@ -48,11 +52,15 @@ def yelpReviewsJob():
 		flag = True
 		if flag:
 			try:
+				file = open('status.txt','a')
+				print("<BR> Start "+datetime.now().strftime("%d-%B-%Y  %I:%M %p  %Z")+"<br><br>",file=file)
+				file.close()
 				x=time.time()
 				getYelpData(canada_cities[index],'canada')
 				y=time.time()
 				file = open('status.txt','a')
 				print("<br>"+str(index+1)+". Completed request for  : "+canada_cities[index]+"    Time taken : "+str((y-x)/60)+" minutes",file=file)
+				print("<BR> Stop "+datetime.now().strftime("%d-%B-%Y  %I:%M %p  %Z")+"<br><br>",file=file)
 				file.close()
 				
 				flag=False
