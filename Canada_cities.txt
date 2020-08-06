@@ -1,0 +1,100 @@
+Toronto
+Montreal
+Calgary
+Ottawa
+Edmonton
+Mississauga
+North York
+Winnipeg
+Scarborough
+Vancouver
+Quebec
+Hamilton
+Brampton
+Surrey
+Laval
+Halifax
+Etobicoke
+London
+Okanagan
+Victoria
+Windsor
+Markham
+Oshawa
+Gatineau
+Vaughan
+Kitchener
+Longueuil
+Burnaby
+Ladner
+Saskatoon
+Richmond Hill
+Barrie
+Richmond
+Nepean
+Regina
+Oakville
+Burlington
+Greater Sudbury
+Abbotsford
+Saguenay
+St. Catharines
+Sherbrooke
+Anmore
+Levis
+Kelowna
+Cambridge
+Trois-Rivieres
+Guelph
+East York
+Coquitlam
+Kingston
+Sydney
+Delta
+Dartmouth
+Thunder Bay
+St. John's
+Waterloo
+Terrebonne
+Ajax
+Saint John
+Pickering
+Brantford
+Moncton
+Nanaimo
+Milton
+Sarnia
+Niagara Falls
+Willowdale
+Saint-Laurent
+Chilliwack
+Repentigny
+Fort McMurray
+Peterborough
+Sault Ste. Marie
+Newmarket
+La Haute-Saint-Charles
+Red Deer
+Saint-Leonard
+Saint-Jean-sur-Richelieu
+Lethbridge
+Maple Ridge
+Brossard
+Kamloops
+Notre-Dame-de-Grace
+White Rock
+Prince George
+Medicine Hat
+Norfolk County
+Drummondville
+New Westminster
+St. Albert
+Sherwood Park
+Saint-Jerome
+Jonquiere
+Granby
+Fredericton
+Welland
+Saint-Hyacinthe
+North Bay
+Belleville
