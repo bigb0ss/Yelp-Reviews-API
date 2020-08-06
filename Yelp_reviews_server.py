@@ -33,6 +33,7 @@ def yelpReviewsJob():
 				file = open('status.txt','a')
 				print("<br> "+str(index+1)+". Completed request for  : "+usa_cities[index]+"   Time taken : "+str((y-x)/60)+" minutes",file=file)
 				#wait for 3 minutes before next request
+				file.close()
 				flag=False
 				time.sleep(15)
 			except:
@@ -71,7 +72,7 @@ def yelpReviewsJob():
 	print("Completed Job")
 
 
-schedule.every().thursday.at("10:28").do(yelpReviewsJob)
+schedule.every().wednesday.at("11:30").do(yelpReviewsJob)
 
 while True:
 	schedule.run_pending()
