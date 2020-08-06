@@ -1,31 +1,18 @@
 from Reviews import *
 import time
 from datetime import datetime
-
+from Reviews import prepare
 import sys
 import schedule
 
 import time
 
+
+
 def yelpReviewsJob():
 
-	try:
-		os.listdir('images')
-	except:
-		os.system('mkdir images')
-	finally:
-		pass
-
-	columns=['name','is_closed','address','overall_rating','before_polarity_score','before_avg_rating','before_sentiment','after_polarity_score','after_avg_rating','after_sentiment','overall_polarity_score','overall_sentiment','wordcloud_img_url','city','yelp_url','res_name']
-	dummy = pd.DataFrame(columns=columns)
-
-	if not os.path.exists('canada_data.csv'):
-		dummy.to_csv('canada_data.csv',index=False)
-
-	if not os.path.exists('us_data.csv'):
-		dummy.to_csv('us_data.csv',index=False)
-
-
+	prepare()
+	
 	usa_cities = open('USA_cities.txt','r').read().split('\n')
 	canada_cities = open('Canada_cities.txt','r').read().split('\n')
 	print("Started Job")

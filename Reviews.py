@@ -18,6 +18,26 @@ from random import randint
 #proxy_list = proxy_server.get_proxy_list()
 
 
+def prepare():
+	try:
+		os.listdir('images')
+	except:
+		os.system('mkdir images')
+	finally:
+		pass
+
+	columns=['name','is_closed','address','overall_rating','before_polarity_score','before_avg_rating','before_sentiment','after_polarity_score','after_avg_rating','after_sentiment','overall_polarity_score','overall_sentiment','wordcloud_img_url','city','yelp_url','res_name']
+	dummy = pd.DataFrame(columns=columns)
+
+	if not os.path.exists('canada_data.csv'):
+		print("creating canada csv file")
+		dummy.to_csv('canada_data.csv',index=False)
+
+	if not os.path.exists('us_data.csv'):
+		print("creating us csv file")
+		dummy.to_csv('us_data.csv',index=False)
+
+
 
 
 def generateWordCloud(data,name,location):
@@ -243,7 +263,7 @@ def getYelpData(location,country,limit_flag=False):
 	for restaurent in result:
 		check = fileDataFrame[fileDataFrame['city']==location.lower()]['name']==restaurent['name'].lower()
 		num_index = check[check].index
-		idx = num_index  #common place index
+		idx = num_index
 		if check.any():
 			print("Updating Existing Row")
 			fileDataFrame.loc[idx,'is_closed'] = restaurent['is_closed']
