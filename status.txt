@@ -1,0 +1,9 @@
+<BR> Started on 06-August-2020  09:05 AM  <br><hr>
+Starting Extraction for USA Cities<br>
+<br>
+<br><br>Completed Extraction for USA Cities<br>
+<br><hr><br>Started Extraction for Canada Cities<br>
+<br>
+<br>
+<br><br>Completed  Extraction for Canada Cities<br><hr>
+<BR> Completed on 06-August-2020  09:05 AM  
