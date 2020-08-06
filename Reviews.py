@@ -267,10 +267,10 @@ def getYelpData(location,country,limit_flag=False):
 
 				fileDataFrame.loc[fileDataFrame[check].index,'wordcloud_img_url'] = restaurent['wordcloud_img_url']
 
-				print("Updated the existing values")
+				#print("Updated the existing values")
 			else:
-				fileDataFrame.append(restaurent,ignore_index=True)
-				print("Appended new values")
+				fileDataFrame = fileDataFrame.append(restaurent,ignore_index=True)
+				#print("Appended new values")
 
 		fileDataFrame.to_csv(file_name,index=False)
 	else:
