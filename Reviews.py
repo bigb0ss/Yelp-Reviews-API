@@ -243,7 +243,7 @@ def getYelpData(location,country,limit_flag=False):
 	for restaurent in result:
 		check = fileDataFrame[fileDataFrame['city']==location.lower()]['name']==restaurent['name'].lower()
 		num_index = check[check].index
-		idx = num_index
+		idx = num_index  #common place index
 		if check.any():
 			print("Updating Existing Row")
 			fileDataFrame.loc[idx,'is_closed'] = restaurent['is_closed']
