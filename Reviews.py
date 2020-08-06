@@ -155,7 +155,7 @@ def getYelpData(location,country,limit_flag=False):
 
 	for i in tqdm(out['businesses'][:tot]):
 		temp={}
-		temp['name']=i['name']
+		temp['name']=i['name'].lower()
 		temp['is_closed']=i['is_closed']		
 		address=""
 		for x in i['location']['display_address']:
@@ -222,57 +222,49 @@ def getYelpData(location,country,limit_flag=False):
 				temp['overall_sentiment'] = "Negative"
 			generateWordCloud(data,i['name'],location)
 			temp['wordcloud_img_url'] =  "file/"+location+"_"+temp['name'].replace(" ","")+".jpeg"
-			temp['city']=location
+			temp['city']=location.lower()
 			temp['yelp_url'] = i['url']
+			temp['res_name'] = i['name']
 			result.append(temp)
 
 	print("Completed Requested")
 	dataFrame = pd.DataFrame(result)
 
 	if country.lower()=='us':
-		print("us")
+		#print("us")
 		file_name='us_data.csv'
-		if os.path.exists(file_name):
-			flag=True
-		else:
-			flag=False
-			dataFrame.to_csv(file_name,index=False)
+
 	if country.lower()=='canada':
 		print('canada')
-		file_name ='canada_data.csv'
-		if os.path.exists(file_name):
-			flag=True
+		#file_name ='canada_data.csv'
+
+	
+	fileDataFrame = pd.read_csv(file_name)
+	for restaurent in result:
+		check = fileDataFrame[fileDataFrame['city']==location.lower()]['name']==restaurent['name'].lower()
+		if check.any():
+			print("Updating Existing Row")
+			fileDataFrame.loc[fileDataFrame[check].index,'is_closed'] = restaurent['is_closed']
+
+			fileDataFrame.loc[fileDataFrame[check].index,'before_polarity_score'] = restaurent['before_polarity_score']
+			fileDataFrame.loc[fileDataFrame[check].index,'before_avg_rating'] = restaurent['before_avg_rating']
+			fileDataFrame.loc[fileDataFrame[check].index,'before_sentiment'] = restaurent['before_sentiment']
+
+			fileDataFrame.loc[fileDataFrame[check].index,'after_polarity_score'] = restaurent['after_polarity_score']
+			fileDataFrame.loc[fileDataFrame[check].index,'after_avg_rating'] = restaurent['after_avg_rating']
+			fileDataFrame.loc[fileDataFrame[check].index,'after_sentiment'] = restaurent['after_sentiment']
+
+			fileDataFrame.loc[fileDataFrame[check].index,'overall_polarity_score'] = restaurent['overall_polarity_score']
+			fileDataFrame.loc[fileDataFrame[check].index,'overall_rating'] = restaurent['overall_rating']
+			fileDataFrame.loc[fileDataFrame[check].index,'overall_sentiment'] = restaurent['overall_sentiment']
+
+			fileDataFrame.loc[fileDataFrame[check].index,'wordcloud_img_url'] = restaurent['wordcloud_img_url']
+
+			fileDataFrame.to_csv(file_name,index=False)	#print("Updated the existing values")
 		else:
-			flag=False
-			dataFrame.to_csv(file_name,index=False)
+			print("Adding New Row")
+			fileDataFrame = fileDataFrame.append(restaurent,ignore_index=True)
+			fileDataFrame.to_csv(file_name,index=False)	
 
-	if flag:
-		fileDataFrame = pd.read_csv(file_name)
-		for restaurent in result:
-			check = fileDataFrame[fileDataFrame['city']==location]['name']==restaurent['name']
-			if check.any():
-				fileDataFrame.loc[fileDataFrame[check].index,'is_closed'] = restaurent['is_closed']
 
-				fileDataFrame.loc[fileDataFrame[check].index,'before_polarity_score'] = restaurent['before_polarity_score']
-				fileDataFrame.loc[fileDataFrame[check].index,'before_avg_rating'] = restaurent['before_avg_rating']
-				fileDataFrame.loc[fileDataFrame[check].index,'before_sentiment'] = restaurent['before_sentiment']
-
-				fileDataFrame.loc[fileDataFrame[check].index,'after_polarity_score'] = restaurent['after_polarity_score']
-				fileDataFrame.loc[fileDataFrame[check].index,'after_avg_rating'] = restaurent['after_avg_rating']
-				fileDataFrame.loc[fileDataFrame[check].index,'after_sentiment'] = restaurent['after_sentiment']
-
-				fileDataFrame.loc[fileDataFrame[check].index,'overall_polarity_score'] = restaurent['overall_polarity_score']
-				fileDataFrame.loc[fileDataFrame[check].index,'overall_rating'] = restaurent['overall_rating']
-				fileDataFrame.loc[fileDataFrame[check].index,'overall_sentiment'] = restaurent['overall_sentiment']
-
-				fileDataFrame.loc[fileDataFrame[check].index,'wordcloud_img_url'] = restaurent['wordcloud_img_url']
-
-				#print("Updated the existing values")
-			else:
-				fileDataFrame = fileDataFrame.append(restaurent,ignore_index=True)
-				#print("Appended new values")
-
-		fileDataFrame.to_csv(file_name,index=False)
-	else:
-		print("New File has been created")
 	print("completed saving process in excel file")

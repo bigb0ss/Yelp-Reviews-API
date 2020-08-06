@@ -41,12 +41,7 @@ def status():
 def api():
 	content = request.json
 	loc = content['location']
-	if not os.path.exists('canada_data.csv'):
-		dummy.to_csv('canada_data.csv',index=False)
-
-	if not os.path.exists('us_data.csv'):
-		dummy.to_csv('us_data.csv',index=False)
-
+	
 	d1 = pd.read_csv('us_data.csv')
 	d2 = pd.read_csv('canada_data.csv')
 	data = d1.append(d2)
@@ -56,7 +51,7 @@ def api():
 	result=[]
 	for res in data.values:
 		temp={}
-		temp['name'] = res[0]
+		temp['name'] = res[15]
 		temp['is_closed'] = res[1]
 		temp['address'] = res[2]
 		temp['overall_rating'] = res[3]
@@ -85,8 +80,6 @@ def api():
 def check():
 	return "API is Online"
 
-columns=['name','is_closed','address','overall_rating','before_polarity_score','before_avg_rating','before_sentiment','after_polarity_score','after_avg_rating','after_sentiment','overall_polarity_score','overall_sentiment','wordcloud_img_url','city','yelp_url']
-dummy = pd.DataFrame(columns=columns)
 
 
 if __name__ == '__main__':
