@@ -242,21 +242,21 @@ def getYelpData(location,country,limit_flag=False):
 	fileDataFrame = pd.read_csv(file_name)
 	for restaurent in result:
 		check = fileDataFrame[fileDataFrame['city']==location.lower()]['name']==restaurent['name'].lower()
+		num_index = check[check].index
+		idx = num_index
 		if check.any():
 			print("Updating Existing Row")
-			fileDataFrame.loc[fileDataFrame[check].index,'is_closed'] = restaurent['is_closed']
+			fileDataFrame.loc[idx,'is_closed'] = restaurent['is_closed']
 
-			fileDataFrame.loc[fileDataFrame[check].index,'before_polarity_score'] = restaurent['before_polarity_score']
-			fileDataFrame.loc[fileDataFrame[check].index,'before_avg_rating'] = restaurent['before_avg_rating']
-			fileDataFrame.loc[fileDataFrame[check].index,'before_sentiment'] = restaurent['before_sentiment']
-
-			fileDataFrame.loc[fileDataFrame[check].index,'after_polarity_score'] = restaurent['after_polarity_score']
-			fileDataFrame.loc[fileDataFrame[check].index,'after_avg_rating'] = restaurent['after_avg_rating']
-			fileDataFrame.loc[fileDataFrame[check].index,'after_sentiment'] = restaurent['after_sentiment']
-
-			fileDataFrame.loc[fileDataFrame[check].index,'overall_polarity_score'] = restaurent['overall_polarity_score']
-			fileDataFrame.loc[fileDataFrame[check].index,'overall_rating'] = restaurent['overall_rating']
-			fileDataFrame.loc[fileDataFrame[check].index,'overall_sentiment'] = restaurent['overall_sentiment']
+			fileDataFrame.loc[idx,'before_polarity_score'] = restaurent['before_polarity_score']
+			fileDataFrame.loc[idx,'before_avg_rating'] = restaurent['before_avg_rating']
+			fileDataFrame.loc[idx,'before_sentiment'] = restaurent['before_sentiment']
+			fileDataFrame.loc[idx,'after_polarity_score'] = restaurent['after_polarity_score']
+			fileDataFrame.loc[idx,'after_avg_rating'] = restaurent['after_avg_rating']
+			fileDataFrame.loc[idx,'after_sentiment'] = restaurent['after_sentiment']
+			fileDataFrame.loc[idx,'overall_polarity_score'] = restaurent['overall_polarity_score']
+			fileDataFrame.loc[idx,'overall_rating'] = restaurent['overall_rating']
+			fileDataFrame.loc[idx,'overall_sentiment'] = restaurent['overall_sentiment']
 
 			fileDataFrame.loc[fileDataFrame[check].index,'wordcloud_img_url'] = restaurent['wordcloud_img_url']
 
