@@ -1,9 +1,409 @@
-<BR> Started on 06-August-2020  09:05 AM  <br><hr>
+<BR> Started on 07-August-2020  03:16 PM  <br><hr>
 Starting Extraction for USA Cities<br>
 <br>
+<BR> Start 07-August-2020  03:16 PM  <br>
+New York
+<BR> Start 07-August-2020  03:16 PM  <br>
+Los Angeles
+<BR> Start 07-August-2020  03:16 PM  <br>
+Chicago
+<BR> Start 07-August-2020  03:16 PM  <br>
+Houston
+<BR> Start 07-August-2020  03:16 PM  <br>
+Phoenix
+<BR> Start 07-August-2020  03:16 PM  <br>
+Philadelphia
+<BR> Start 07-August-2020  03:16 PM  <br>
+San Antonio
+<BR> Start 07-August-2020  03:16 PM  <br>
+San Diego
+<BR> Start 07-August-2020  03:16 PM  <br>
+Dallas
+<BR> Start 07-August-2020  03:16 PM  <br>
+San Jose
+<BR> Start 07-August-2020  03:16 PM  <br>
+Austin
+<BR> Start 07-August-2020  03:16 PM  <br>
+Fort Worth
+<BR> Start 07-August-2020  03:16 PM  <br>
+Jacksonville
+<BR> Start 07-August-2020  03:16 PM  <br>
+Columbus
+<BR> Start 07-August-2020  03:16 PM  <br>
+Charlotte
+<BR> Start 07-August-2020  03:16 PM  <br>
+San Francisco
+<BR> Start 07-August-2020  03:16 PM  <br>
+Indianapolis
+<BR> Start 07-August-2020  03:16 PM  <br>
+Seattle
+<BR> Start 07-August-2020  03:16 PM  <br>
+Denver
+<BR> Start 07-August-2020  03:16 PM  <br>
+Washington
+<BR> Start 07-August-2020  03:16 PM  <br>
+Boston
+<BR> Start 07-August-2020  03:16 PM  <br>
+El Paso
+<BR> Start 07-August-2020  03:16 PM  <br>
+Nashville
+<BR> Start 07-August-2020  03:16 PM  <br>
+Detroit
+<BR> Start 07-August-2020  03:16 PM  <br>
+Portland
+<BR> Start 07-August-2020  03:16 PM  <br>
+Las Vegas
+<BR> Start 07-August-2020  03:16 PM  <br>
+Oklahoma City
+<BR> Start 07-August-2020  03:16 PM  <br>
+Memphis
+<BR> Start 07-August-2020  03:16 PM  <br>
+Louisville
+<BR> Start 07-August-2020  03:16 PM  <br>
+Baltimore
+<BR> Start 07-August-2020  03:16 PM  <br>
+Milwaukee
+<BR> Start 07-August-2020  03:16 PM  <br>
+Albuquerque
+<BR> Start 07-August-2020  03:16 PM  <br>
+Tucson
+<BR> Start 07-August-2020  03:16 PM  <br>
+Fresno
+<BR> Start 07-August-2020  03:16 PM  <br>
+Mesa
+<BR> Start 07-August-2020  03:16 PM  <br>
+Atlanta
+<BR> Start 07-August-2020  03:16 PM  <br>
+Sacramento
+<BR> Start 07-August-2020  03:16 PM  <br>
+Kansas City
+<BR> Start 07-August-2020  03:16 PM  <br>
+Miami
+<BR> Start 07-August-2020  03:16 PM  <br>
+Colorado Springs
+<BR> Start 07-August-2020  03:16 PM  <br>
+Raleigh
+<BR> Start 07-August-2020  03:16 PM  <br>
+Omaha
+<BR> Start 07-August-2020  03:16 PM  <br>
+Long Beach
+<BR> Start 07-August-2020  03:16 PM  <br>
+Virginia Beach
+<BR> Start 07-August-2020  03:16 PM  <br>
+Minneapolis
+<BR> Start 07-August-2020  03:16 PM  <br>
+Oakland
+<BR> Start 07-August-2020  03:16 PM  <br>
+Tampa
+<BR> Start 07-August-2020  03:16 PM  <br>
+Arlington
+<BR> Start 07-August-2020  03:16 PM  <br>
+Tulsa
+<BR> Start 07-August-2020  03:16 PM  <br>
+Bakersfield
+<BR> Start 07-August-2020  03:16 PM  <br>
+New Orleans
+<BR> Start 07-August-2020  03:16 PM  <br>
+Wichita
+<BR> Start 07-August-2020  03:16 PM  <br>
+Aurora
+<BR> Start 07-August-2020  03:16 PM  <br>
+Cleveland
+<BR> Start 07-August-2020  03:16 PM  <br>
+Anaheim
+<BR> Start 07-August-2020  03:16 PM  <br>
+Honolulu
+<BR> Start 07-August-2020  03:16 PM  <br>
+Riverside
+<BR> Start 07-August-2020  03:16 PM  <br>
+San Juan zona urbana
+<BR> Start 07-August-2020  03:16 PM  <br>
+Santa Ana
+<BR> Start 07-August-2020  03:16 PM  <br>
+Henderson
+<BR> Start 07-August-2020  03:16 PM  <br>
+Lexington
+<BR> Start 07-August-2020  03:16 PM  <br>
+Corpus Christi
+<BR> Start 07-August-2020  03:16 PM  <br>
+Stockton
+<BR> Start 07-August-2020  03:16 PM  <br>
+St. Paul
+<BR> Start 07-August-2020  03:16 PM  <br>
+Cincinnati
+<BR> Start 07-August-2020  03:16 PM  <br>
+Irvine
+<BR> Start 07-August-2020  03:16 PM  <br>
+Greensboro
+<BR> Start 07-August-2020  03:16 PM  <br>
+Pittsburgh
+<BR> Start 07-August-2020  03:16 PM  <br>
+Lincoln
+<BR> Start 07-August-2020  03:16 PM  <br>
+St. Louis
+<BR> Start 07-August-2020  03:16 PM  <br>
+Orlando
+<BR> Start 07-August-2020  03:16 PM  <br>
+Plano
+<BR> Start 07-August-2020  03:16 PM  <br>
+Anchorage
+<BR> Start 07-August-2020  03:16 PM  <br>
+Newark
+<BR> Start 07-August-2020  03:16 PM  <br>
+Durham
+<BR> Start 07-August-2020  03:16 PM  <br>
+Chula Vista
+<BR> Start 07-August-2020  03:16 PM  <br>
+St. Petersburg
+<BR> Start 07-August-2020  03:16 PM  <br>
+Jersey City
+<BR> Start 07-August-2020  03:16 PM  <br>
+Fort Wayne
+<BR> Start 07-August-2020  03:16 PM  <br>
+Toledo
+<BR> Start 07-August-2020  03:16 PM  <br>
+Chandler
+<BR> Start 07-August-2020  03:16 PM  <br>
+Laredo
+<BR> Start 07-August-2020  03:16 PM  <br>
+Madison
+<BR> Start 07-August-2020  03:16 PM  <br>
+Scottsdale
+<BR> Start 07-August-2020  03:16 PM  <br>
+Lubbock
+<BR> Start 07-August-2020  03:16 PM  <br>
+Reno
+<BR> Start 07-August-2020  03:16 PM  <br>
+Gilbert
+<BR> Start 07-August-2020  03:16 PM  <br>
+Buffalo
+<BR> Start 07-August-2020  03:16 PM  <br>
+Glendale
+<BR> Start 07-August-2020  03:16 PM  <br>
+North Las Vegas
+<BR> Start 07-August-2020  03:16 PM  <br>
+Winston-Salem
+<BR> Start 07-August-2020  03:16 PM  <br>
+Chesapeake
+<BR> Start 07-August-2020  03:16 PM  <br>
+Garland
+<BR> Start 07-August-2020  03:16 PM  <br>
+Irving
+<BR> Start 07-August-2020  03:16 PM  <br>
+Hialeah
+<BR> Start 07-August-2020  03:16 PM  <br>
+Norfolk
+<BR> Start 07-August-2020  03:16 PM  <br>
+Fremont
+<BR> Start 07-August-2020  03:16 PM  <br>
+Boise
+<BR> Start 07-August-2020  03:16 PM  <br>
+Paradise
+<BR> Start 07-August-2020  03:16 PM  <br>
+Richmond
 <br><br>Completed Extraction for USA Cities<br>
 <br><hr><br>Started Extraction for Canada Cities<br>
 <br>
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Toronto
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Montreal
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Calgary
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Ottawa
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Edmonton
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Mississauga
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+North York
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Winnipeg
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Scarborough
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Vancouver
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Quebec
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Hamilton
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Brampton
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Surrey
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Laval
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Halifax
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Etobicoke
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+London
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Okanagan
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Victoria
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Windsor
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Markham
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Oshawa
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Gatineau
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Vaughan
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Kitchener
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Longueuil
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Burnaby
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Ladner
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saskatoon
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Richmond Hill
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Barrie
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Richmond
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Nepean
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Regina
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Oakville
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Burlington
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Greater Sudbury
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Abbotsford
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saguenay
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+St. Catharines
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Sherbrooke
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Anmore
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Levis
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Kelowna
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Cambridge
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Trois-Rivieres
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Guelph
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+East York
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Coquitlam
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Kingston
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Sydney
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Delta
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Dartmouth
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Thunder Bay
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+St. John's
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Waterloo
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Terrebonne
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Ajax
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saint John
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Pickering
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Brantford
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Moncton
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Nanaimo
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Milton
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Sarnia
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Niagara Falls
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Willowdale
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saint-Laurent
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Chilliwack
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Repentigny
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Fort McMurray
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Peterborough
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Sault Ste. Marie
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Newmarket
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+La Haute-Saint-Charles
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Red Deer
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saint-Leonard
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saint-Jean-sur-Richelieu
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Lethbridge
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Maple Ridge
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Brossard
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Kamloops
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Notre-Dame-de-Grace
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+White Rock
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Prince George
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Medicine Hat
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Norfolk County
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Drummondville
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+New Westminster
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+St. Albert
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Sherwood Park
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saint-Jerome
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Jonquiere
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Granby
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Fredericton
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Welland
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Saint-Hyacinthe
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+North Bay
+<BR> Start 07-August-2020  03:16 PM  <br><br>
+Belleville
 <br>
 <br><br>Completed  Extraction for Canada Cities<br><hr>
-<BR> Completed on 06-August-2020  09:05 AM  
+<BR> Completed on 07-August-2020  03:16 PM  

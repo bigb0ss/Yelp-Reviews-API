@@ -278,7 +278,7 @@ def getYelpData(location,country,limit_flag=False):
 			fileDataFrame.loc[idx,'overall_rating'] = restaurent['overall_rating']
 			fileDataFrame.loc[idx,'overall_sentiment'] = restaurent['overall_sentiment']
 
-			fileDataFrame.loc[fileDataFrame[check].index,'wordcloud_img_url'] = restaurent['wordcloud_img_url']
+			fileDataFrame.loc[idx,'wordcloud_img_url'] = restaurent['wordcloud_img_url']
 
 			fileDataFrame.to_csv(file_name,index=False)	#print("Updated the existing values")
 		else:

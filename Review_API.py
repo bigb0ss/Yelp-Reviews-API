@@ -31,10 +31,10 @@ def getData():
 	
 	return jsonify(res)
 
-
+file = open('status.txt','r+')
 @app.route('/status')
 def status():
-	content = open('status.txt','r').read()
+	content = file.read()
 	return content
 
 @app.route('/',methods=['GET','POST'])
